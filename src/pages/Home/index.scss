@@ -1,4 +1,73 @@
 .pagina-home {
   display: flex;
-  height: 100vw;
+  flex-direction: column;
+  height: 70vw;
+  background-image: url('../../../public/assets/images/BackgroundD.png');
+  background-repeat: repeat;
+
+  .sessaoInicial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .align {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 3vw;
+      width: 50vw;
+      height: 33.5vw;
+      background-color: #221059;  
+      box-shadow: 0px 0px 150px#221059;
+
+      h1 {
+        color: #F4952F;
+        font-weight: 800;
+      }
+
+      h1:hover {
+        text-shadow: 0px 00px 20px #F4952F;
+        transition: 0.2s;
+        color: #fff;
+      }
+
+      .direction {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 4vw;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-weight: 500;
+          border: solid 2px #fff;
+          padding: 10px 30px;
+          border-radius: 12px;
+        }
+
+        a:hover {
+          color: #433572;
+          background-color: #F4952F;
+          padding: 10px 30px;
+          border-radius: 12px;
+          font-weight: 700;
+          transition: 0.2s;
+          box-shadow: 0px 00px 50px #F4952F;
+          border: solid 1px #F4952F;
+        }
+
+        .line {
+          background-color: #fff;
+          width: 0.2vw;
+          height: 9vh;
+        }
+      }
+
+    }
+  }
 }

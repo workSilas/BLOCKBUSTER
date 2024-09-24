@@ -1,6 +1,6 @@
 import './index.scss';
 
-function Nav() {
+export default function Nav() {
     return (
         <div className="Nav">
             <h1>BLOCKBUSTER</h1>
@@ -17,5 +17,3 @@ function Nav() {
         </div>
     );
 }
-
-export default Nav;

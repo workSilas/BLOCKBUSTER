@@ -5,7 +5,7 @@ export default function Navegacao() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/Home" element={<Home />} />
+                <Route path="/" element={<Home />} />
             </Routes>
         </BrowserRouter>
     )
