@@ -1,9 +1,12 @@
 .pagina-home {
   display: flex;
   flex-direction: column;
-  height: 70vw;
-  background-image: url('../../../public/assets/images/BackgroundD.png');
   background-repeat: repeat;
+  
+  main {
+    background-image: url('../../../public/assets/images/BackgroundD.png');
+    height: 70vw;
+  }
 
   .sessaoInicial {
     display: flex;
@@ -26,6 +29,7 @@
       h1 {
         color: #F4952F;
         font-weight: 800;
+        cursor: default;
       }
 
       h1:hover {
