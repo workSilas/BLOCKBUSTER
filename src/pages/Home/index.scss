@@ -1,13 +1,11 @@
 .pagina-home {
   display: flex;
   flex-direction: column;
-  background-repeat: repeat;
+  background-image: url('../../../public/assets/images/BackgroundD.png');
+  height: 70vw;
+  background-repeat: no-repeat;
+  background-size: cover;
   
-  main {
-    background-image: url('../../../public/assets/images/BackgroundD.png');
-    height: 70vw;
-  }
-
   .sessaoInicial {
     display: flex;
     flex-direction: row;
@@ -22,7 +20,7 @@
       text-align: center;
       gap: 3vw;
       width: 50vw;
-      height: 33.5vw;
+      height: 500PX;
       background-color: #221059;  
       box-shadow: 0px 0px 150px#221059;
 
