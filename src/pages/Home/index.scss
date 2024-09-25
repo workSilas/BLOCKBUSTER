@@ -3,14 +3,15 @@
   flex-direction: column;
   background-image: url('../../../public/assets/images/BackgroundD.png');
   height: 70vw;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
-  
+
   .sessaoInicial {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
 
     .align {
       display: flex;
@@ -21,7 +22,7 @@
       gap: 3vw;
       width: 50vw;
       height: 500PX;
-      background-color: #221059;  
+      background-color: #221059;
       box-shadow: 0px 0px 150px#221059;
 
       h1 {
@@ -71,5 +72,97 @@
       }
 
     }
+  }
+
+  .sessaoFinal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 5vh;
+
+    h2 {
+      color: #fff;
+      font-weight: 800;
+      cursor: default;
+    }
+
+    h2:hover {
+      text-shadow: 0px 00px 20px #F4952F;
+      transition: 0.2s;
+      color: #fff;
+    }
+
+    .side {
+      margin-top: 20vh;
+      display: flex;
+      flex-direction: row;
+      gap: 4vw;
+
+      .square {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #221059;
+        color: #fff;
+        padding: 5vh 3vw;
+        border-radius: 12px;
+        gap: 2vh;
+      }
+
+      .square:hover {
+        box-shadow: 0px 00px 20px #221059;
+        transition: 0.2s;
+        color: #fff;
+      }
+    }
+
+    .up {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 5vh;
+      color: #fff;
+
+      .sep {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        gap: 20px;
+
+        .info {
+          display: flex;
+          width: 20vw;
+          height: 20vh;
+          background-color: #221059;
+          color: #fff;
+          border-radius: 12px;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+
+          img {
+            width: 20vw;
+            height: 20vh;
+            border: solid 4px #221059;
+            border-radius: 12px;
+          }
+        }
+
+        .info:hover {
+          box-shadow: 0px 00px 20px #221059;
+          transition: 0.2s;
+          color: #fff;
+        }
+      }
+    }
+
   }
 }
