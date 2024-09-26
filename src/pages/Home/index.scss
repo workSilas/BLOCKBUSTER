@@ -172,7 +172,7 @@
 
 @media (max-width: 1550px) {
   .pagina-home {
-
+      
     main {
 
       .sessaoFinal {
@@ -263,6 +263,7 @@
 
 @media (max-width: 900px) {
   .pagina-home {
+    background-image: url('../../../public/assets/images/BackgroundM.png');
 
     main {
 
@@ -306,7 +307,6 @@
       .sessaoFinal {
         flex-direction: column-reverse;
         gap: 0vw;
-        background-color: #F4952F;
 
         .up {
 
