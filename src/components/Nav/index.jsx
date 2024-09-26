@@ -11,6 +11,9 @@ export default function Nav() {
                 <a href="">Séries</a>
             </div>
             <div className="line" />
+            <div className="lupa">
+                <a href=""><img src="/assets/images/Search.png" /></a>
+            </div>
             <div className="input">
                 <img src="/assets/images/Search.png" />
                 <input type="text" placeholder='Procurar' />

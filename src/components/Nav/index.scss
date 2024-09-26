@@ -57,6 +57,10 @@
         background-color: #fff;
     }
 
+    .lupa {
+        display: none;
+    }
+
     .input {
         display: flex;
         width: 15vw;
@@ -106,6 +110,18 @@
         }
 
         .sec {
+            display: none;
+        }
+
+        .lupa {
+            display: flex;
+
+            img {
+                width: 5vw;
+            }
+        }
+
+        .input{
             display: none;
         }
     }

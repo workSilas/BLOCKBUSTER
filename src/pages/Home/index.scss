@@ -30,6 +30,7 @@
           color: #F4952F;
           font-weight: 800;
           cursor: default;
+          width: 25vw;
         }
 
         h1:hover {
@@ -243,7 +244,7 @@
 
       .sessaoFinal {
 
-        .side {   
+        .side {
           h2 {
             font-size: larger;
           }
@@ -254,6 +255,83 @@
           h2 {
             font-size: larger;
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .pagina-home {
+
+    main {
+
+      .sessaoInicial {
+        flex-direction: column;
+
+        img {
+          width: 100vw;
+          height: 40vh;
+        }
+
+        .align {
+          width: 100vw;
+          height: 20vh;
+
+          h1 {
+            width: 100%;
+            font-size: medium;
+          }
+
+          .direction {
+            gap: 0vw 15vw;
+
+            a {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 24vw;
+              height: 7vh;
+              font-size: 0.8rem;
+            }
+
+            .line {
+              height: 5vh;
+              width: 0.5vw;
+            }
+          }
+        }
+      }
+
+      .sessaoFinal {
+        flex-direction: column-reverse;
+        gap: 0vw;
+        background-color: #F4952F;
+
+        .up {
+
+          .sep {
+
+            .info {
+              width: 40vw;
+              height: 15vh;
+
+              img {
+                width: 40vw;
+                height: 15vh;
+              }
+            }
+          }
+        }
+
+        .side {
+          gap: 3vw;
+          margin-top: 5vh;
+          margin-bottom: 5vh;
+
+          .square {
+            padding: 5vh 20vw;
+          }      
         }
       }
     }

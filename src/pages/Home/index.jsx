@@ -15,8 +15,7 @@ export default function Home() {
             <img src="/assets/images/imagens.png" />
           </div>
           <div className='align'>
-            <h1>FILMES E SÉRIES <br />
-              DE TODAS AS ERAS</h1>
+            <h1>FILMES E SÉRIES DE TODAS AS ERAS</h1>
             <div className='direction'>
               <a href="">CADASTRE-SE</a>
               <div className='line' />
