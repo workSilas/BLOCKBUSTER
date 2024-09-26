@@ -1,9 +1,11 @@
-import './index.scss';
+import './index.scss';  
 
 export default function Nav() {
+
     return (
         <div className="Nav">
             <img className='img' src="/assets/images/blockbusterLogo.png" />
+            <h1>BLOCKBUSTER</h1>
             <div className="sec">
                 <a href="">Filmes</a>
                 <a href="">Séries</a>

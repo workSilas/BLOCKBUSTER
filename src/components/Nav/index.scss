@@ -10,8 +10,14 @@
     height: 15vh;
     z-index: 1;
 
+   
     .img {
         width: 13vw;
+    }
+
+    h1 {
+        display: none;
+        margin-left: 15vw;
     }
 
     h1 {
@@ -61,8 +67,7 @@
         align-items: center;
 
         img {
-            width: 20px;
-            height: 20px;
+            width: 13vw;
         }
 
         input {
@@ -85,6 +90,23 @@
             &::placeholder {
                 color: #d8d8d8;
             }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .Nav {
+
+        .img {
+            display: none;
+        }
+
+        h1 {
+            display: flex;
+        }
+
+        .sec {
+            display: none;
         }
     }
 }

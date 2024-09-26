@@ -1,11 +1,13 @@
 import './index.scss';
 import Nav from '../../components/Nav';
 import Rodape from '../../components/Rodape';
+import List from '../../components/Nav/List';
 
 
 export default function Home() {
   return (
     <div className="pagina-home">
+      <List />
       <Nav />
       <main>
         <div className='sessaoInicial'>

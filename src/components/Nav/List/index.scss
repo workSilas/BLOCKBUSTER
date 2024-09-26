@@ -1,0 +1,83 @@
+.List {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30vw;
+    z-index: 2;
+
+    img {
+        position: absolute;
+        top: 5.5vh;
+        left: 6vw;
+        cursor: pointer;
+    }
+
+    
+    .container {
+        position: absolute;
+        display: flex;
+        top: 0;
+        left: 0;
+        height: 150vh;
+        width: 40vw;
+        background-color: #362668;
+        z-index: 1;
+        
+        img {
+            cursor: pointer;
+            position: absolute;
+            top: 2vh;
+            left: 2vw;
+        }
+
+        .sep {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 50vh;
+
+            ul {
+                list-style: none;
+                text-align: center;
+                gap: 5vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 50vh;
+
+                li {
+
+                    a {
+                        color: #fff;
+                        font-size: large;
+                        text-decoration: underline;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        padding: 10px 30px;
+                        border-radius: 12px;
+                    }
+
+                    a:hover {
+                        color: #433572;
+                        background-color: #F4952F;
+                        text-decoration: none;
+                        padding: 10px 30px;
+                        border-radius: 12px;
+                        font-weight: 700;
+                        transition: 0.2s;
+                        box-shadow: 0px 00px 50px #F4952F;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .List {
+        display: flex;
+    }
+}
