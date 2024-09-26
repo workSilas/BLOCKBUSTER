@@ -172,7 +172,7 @@
 
 @media (max-width: 1550px) {
   .pagina-home {
-      
+
     main {
 
       .sessaoFinal {
@@ -331,7 +331,50 @@
 
           .square {
             padding: 5vh 20vw;
-          }      
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 610px) {
+  .pagina-home {
+
+    main {
+
+      .sessaoInicial {
+
+        .align {
+
+          .direction {
+
+            a {
+              font-size: 0.7rem;
+              width: 30vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .pagina-home {
+
+    main {
+
+      .sessaoInicial {
+
+        .align {
+
+          .direction {
+
+            a {
+              font-size: 0.6rem;
+            }
+          }
         }
       }
     }
