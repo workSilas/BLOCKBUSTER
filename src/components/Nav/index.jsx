@@ -4,7 +4,7 @@ export default function Nav() {
 
     return (
         <div className="Nav">
-            <img className='img' src="/assets/images/blockbusterLogo.png" />
+            <img className='img' src="/assets/images/blockbusterLogo.png" alt='blockbusterLogo'/>
             <h1>BLOCKBUSTER</h1>
             <div className="sec">
                 <a href="/">Filmes</a>
