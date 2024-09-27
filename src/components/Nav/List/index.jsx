@@ -22,8 +22,8 @@ export default function List() {
                     <img src="/assets/images/ESC.png" onClick={click} alt="ESC" />
                     <div className='sep'>
                     <ul>
-                        <li><a href="">Filmes</a></li>
-                        <li><a href="">Séries</a></li>
+                        <li><a href="/">Filmes</a></li>
+                        <li><a href="/">Séries</a></li>
                     </ul>
                     </div>
                 </div>

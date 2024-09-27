@@ -5,7 +5,7 @@ export default function Rodape() {
         <div className="Rodape">
             <h1>BLOCKBUSTER</h1>
             <div className='line' />
-            <a href="">Políticas de Privacidade</a>
+            <a href="/">Políticas de Privacidade</a>
             <p>2024©</p>
         </div>
     );

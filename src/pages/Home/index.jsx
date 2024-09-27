@@ -17,9 +17,9 @@ export default function Home() {
           <div className='align'>
             <h1>FILMES E SÉRIES DE TODAS AS ERAS</h1>
             <div className='direction'>
-              <a href="">CADASTRE-SE</a>
+              <a href="/">CADASTRE-SE</a>
               <div className='line' />
-              <a href="">PLANOS</a>
+              <a href="/">PLANOS</a>
             </div>
           </div>
         </div>
