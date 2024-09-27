@@ -10,7 +10,7 @@
     height: 15vh;
     z-index: 1;
 
-   
+
     .img {
         width: 13vw;
     }
@@ -58,7 +58,10 @@
     }
 
     .lupa {
-        display: none;
+        img {
+            display: none;
+            cursor: pointer;
+        }
     }
 
     .input {
@@ -71,7 +74,7 @@
         align-items: center;
 
         img {
-            width: 13vw;
+            width: 1vw;
         }
 
         input {
@@ -100,6 +103,7 @@
 
 @media (max-width: 900px) {
     .Nav {
+        height: 12vh;
 
         .img {
             display: none;
@@ -107,6 +111,7 @@
 
         h1 {
             display: flex;
+            font-size: medium;
         }
 
         .sec {
@@ -114,15 +119,19 @@
         }
 
         .lupa {
-            display: flex;
 
             img {
-                width: 5vw;
+                display: flex;
+                width: 6vw;
             }
         }
 
-        .input{
+        .input {
             display: none;
+        }
+
+        img {
+            width: 8vw;
         }
     }
 }

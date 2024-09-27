@@ -272,7 +272,7 @@
 
         img {
           width: 100vw;
-          height: 40vh;
+          height: 30vh;
         }
 
         .align {
@@ -281,7 +281,8 @@
 
           h1 {
             width: 100%;
-            font-size: medium;
+            font-size: 1.3rem;
+            margin-bottom: 1vh;
           }
 
           .direction {
@@ -293,7 +294,7 @@
               justify-content: center;
               width: 24vw;
               height: 7vh;
-              font-size: 0.8rem;
+              font-size: 0.6rem;
             }
 
             .line {
@@ -314,11 +315,15 @@
 
             .info {
               width: 40vw;
-              height: 15vh;
+              height: 13vh;
+              
+              h2 {
+                font-size: 0.9rem;
+              }
 
               img {
                 width: 30vw;
-                height: 15vh;
+                height: 10vh;
               }
             }
           }
@@ -330,7 +335,7 @@
           margin-bottom: 5vh;
 
           .square {
-            padding: 5vh 20vw;
+            padding: 5vh 10vw;
           }
         }
       }
@@ -345,13 +350,19 @@
 
       .sessaoInicial {
 
+        img {
+          width: 100vw;
+          height: 25vh;
+        }
+
         .align {
 
           .direction {
+            gap: 0vw 10vw;
 
             a {
               font-size: 0.7rem;
-              width: 30vw;
+              width: 32vw;
             }
           }
         }
@@ -373,6 +384,7 @@
 
             a {
               font-size: 0.6rem;
+              width: 34vw;
             }
           }
         }

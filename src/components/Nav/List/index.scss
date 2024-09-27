@@ -79,5 +79,16 @@
 @media (max-width: 900px) {
     .List {
         display: flex;
+
+        img {
+            position: absolute;
+            top: 4.5vh;
+            left: 6vw;
+            cursor: pointer;
+        }
+
+        .container {
+            width: 50vw;
+        }
     }
 }
