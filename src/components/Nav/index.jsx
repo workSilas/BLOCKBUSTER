@@ -12,13 +12,13 @@ export default function Nav() {
             </div>
             <div className="line" />
             <div className="lupa">
-                <a href=""><img src="/assets/images/Search.png" /></a>
+                <a href=""><img src="/assets/images/Search.png" alt="Search" /></a>
             </div>
             <div className="input">
-                <img src="/assets/images/Search.png" />
+                <img src="/assets/images/Search.png" alt="Search"  />
                 <input type="text" placeholder='Procurar' />
             </div>
-            <a href=""><img src="/assets/images/user.png" /></a>
+            <a href=""><img src="/assets/images/user.png" alt="user"  /></a>
         </div>
     );
 }

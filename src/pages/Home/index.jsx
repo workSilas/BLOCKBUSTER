@@ -12,7 +12,7 @@ export default function Home() {
       <main>
         <div className='sessaoInicial'>
           <div>
-            <img src="/assets/images/imagens.png" />
+            <img src="/assets/images/imagens.png" alt="imagens"  />
           </div>
           <div className='align'>
             <h1>FILMES E SÉRIES DE TODAS AS ERAS</h1>
@@ -29,10 +29,10 @@ export default function Home() {
             <div className="square">
               <h2>ASSISTA EM QUALQUER <br />
                 DISPOSITIVO</h2>
-              <img src="/assets/images/dispositivosImg.png" />
+              <img src="/assets/images/dispositivosImg.png" alt="dispositivosImg" />
             </div>
             <div className="square">
-              <img src="/assets/images/offline.png" />
+              <img src="/assets/images/offline.png" alt="offline" />
               <h2>BAIXE SÉRIES E FILMES  <br />
                 E ASSISTA OFFLINE</h2>
             </div>
@@ -43,7 +43,7 @@ export default function Home() {
               SERVIÇO DE STREAMING</h2>
             <div className="sep">
               <div className="info">
-                <img src="/assets/images/batman.png" />
+                <img src="/assets/images/batman.png" alt="batman" />
               </div>
               <div className="info">
                 <h2>AÇÃO <br />
@@ -58,7 +58,7 @@ export default function Home() {
                   E MUITO MAIS!</h2>
               </div>
               <div className="info">
-                <img src="/assets/images/summer.png" />
+                <img src="/assets/images/summer.png" alt="summer" />
               </div>
             </div>
           </div>
